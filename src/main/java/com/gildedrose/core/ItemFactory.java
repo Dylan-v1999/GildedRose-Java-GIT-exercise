@@ -21,6 +21,7 @@ public class ItemFactory {
             case "Backstage passes to a TAFKAL80ETC concert": return new TicketItem(name, sellIn, quality);
             case "Conjured Mana Cake": return new ConjuredItem(name, sellIn, quality);
             case "Switch item" : return new SwitchItem(name, sellIn, quality);
+            case "Switch item2" : return new SwitchItem(name, sellIn, quality);
         }
         throw new Exception("My apologies, but we are not selling this type of item with the name: " + name);
     }
